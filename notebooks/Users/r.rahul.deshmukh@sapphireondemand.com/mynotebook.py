@@ -16,3 +16,4 @@ clusters_list = hhost+'/clusters/list'
 rq1 = requests.get(clusters_list, auth=(usr,pas))
 print(rq1.status_code)
 print(rq1.json())
+print("hello")
